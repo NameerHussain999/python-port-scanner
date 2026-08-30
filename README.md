@@ -220,6 +220,27 @@ This project is intended as an educational port scanner rather than a replacemen
 
 Service detection is basic, firewall behavior can affect results, and SYN scanning may require elevated privileges and additional packet-capture drivers depending on the operating system.
 
+## 📸 Project Screenshots
+
+### Port Scan Results
+Multithreaded port scanning showing detected port states.
+
+![Port Scan Results](screenshots/scan-results.png)
+
+### Service Detection
+Detected services and banners running on open ports.
+
+![Service Detection](screenshots/service-detection.png)
+
+### SYN Scan
+TCP SYN scanning used to identify open ports.
+
+![SYN Scan](screenshots/syn-scan.png)
+
+### Saved Scan Results
+Scan results exported and saved for later analysis.
+
+![Saved Results](screenshots/saved-results.png)
 ## Disclaimer
 
 This project is intended for educational purposes and authorized security testing only.
